@@ -16,6 +16,11 @@ section{
     padding:20px;
 }
 
+pre {
+    font-size: 12px;
+    margin: 50;
+}
+
 .row {
     display:flex;
     flex-direction: row;
