@@ -6,11 +6,24 @@
 }
 
 h1 {
-    
+    text-align: center;
+    color: blueviolet;
+}
+
+p {
+    color: white;
+}
+
+.text {
+    color:blueviolet;
+    font-size: 8px; /*why isnt this doing anything*/
 }
 
 main{
-    display:flex; /*display flex? block?*/
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+     /*display flex? block?*/
     flex-wrap: wrap;
 }
 
@@ -22,56 +35,58 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+    color: blueviolet;
+}
 section{
-    width: 350px;
+    width: 30%;
     border: 5px solid white;
     margin-top: 5%;
     border-style: dotted;
-    padding: 5px;px;
+    padding: 5px;
     margin: 20 px;
     color: blueviolet;
-
 }
 
 pre {
     font-size: 12px;
     margin: 50;
         inline-size: 100px;
-
 }
-
-.
 
 .row {
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
-.column {
+/* .column {
     display: flex;
     flex-direction: column;
-}
+    flex: 50%;
+} */
 
-.grid {
+/* .grid {
     display:grid;
     width: 100%;
     grid-template-columns: repeat (12, 1fr);
-}
+} */
 
 .linear-gradient-background {
     background-image: linear-gradient(
-        rgba(232, 102, 236, 0.3) 0%;
-        rgba(232, 102, 236, 0.6) 100%;
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
     )
 }
 
 .code-card .card-header {
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
-}
+    box-shadow: inset 0px 0px 8px (blue), 0 0 15px (red);
+}/*changes above*/
 
-.code-card:hover;
+.code-card:hover,
 .code-card:hover .card-header {
     box-shadow: inset 0px 0px 8px
     rgba(232, 102, 236, 1), 00 15px
