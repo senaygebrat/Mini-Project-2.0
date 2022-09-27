@@ -1,8 +1,6 @@
 *{
     box-sizing: border-box;
     background: #563657;
-   /* margin: 5px;
-    padding: 5px; */
 }
 
 h1 {
@@ -16,7 +14,7 @@ p {
 
 .text {
     color:blueviolet;
-    font-size: 16px; /*why isnt this doing anything*/
+    font-size: 16px; 
 }
 
 main{
